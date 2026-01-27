@@ -33,7 +33,7 @@ import matplotlib.pyplot as plt
 from numpy import percentile
 import numpy as np
 import warnings
-from __future__ import print_function
+
 
 import os
 import sys

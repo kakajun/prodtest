@@ -1,15 +1,18 @@
 # -*- coding: utf-8 -*-
 """使用基于聚类的局部离群因子 (CBLOF) 进行异常检测的示例
+是一种结合聚类分析和局部离群度计算的异常检测算法，核心思想是通过聚类划分数据簇，
+再根据样本所属簇的规模和样本到簇中心的距离衡量离群程度
 """
 # Author: Yue Zhao <zhaoy@cmu.edu>
 # License: BSD 2 clause
 
 from __future__ import division
+
 from pyod.utils.example import visualize
 from pyod.utils.data import evaluate_print
 from pyod.utils.data import generate_data
 from pyod.models.cblof import CBLOF
-from __future__ import print_function
+
 
 import os
 import sys

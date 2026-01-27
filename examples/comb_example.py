@@ -18,7 +18,7 @@ from pyod.models.knn import KNN
 from scipy.io import loadmat
 from sklearn.model_selection import train_test_split
 import numpy as np
-from __future__ import print_function
+
 
 import os
 import sys

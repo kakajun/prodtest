@@ -10,7 +10,7 @@ from pyod.utils.utility import standardizer
 from pyod.models.copod import COPOD
 from sklearn.model_selection import train_test_split
 from scipy.io import loadmat
-from __future__ import print_function
+
 
 import os
 import sys

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """使用 AutoEncoder (自编码器) 进行异常检测的示例
+自编码器（AutoEncoder, AE）是一种无监督学习的神经网络模型，核心思想是通过数据压缩 - 重构的过程学习正常数据的特征模式，再利用重构误差判断样本是否异常。
+在异常检测领域，AE 凭借结构简单、易部署、适配性强等特点被广泛应用
 """
 # Author: Tiankai Yang <tiankaiy@usc.edu>
 # License: BSD 2 clause

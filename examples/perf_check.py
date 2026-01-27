@@ -9,7 +9,7 @@ from pyod.utils.data import evaluate_print
 from pyod.utils.data import generate_data
 from pyod.models.knn import KNN
 from scipy.io import loadmat
-from __future__ import print_function
+
 
 import os
 import sys

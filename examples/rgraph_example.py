@@ -9,7 +9,7 @@ from __future__ import division
 from pyod.utils.data import evaluate_print
 from pyod.utils.data import generate_data
 from pyod.models.rgraph import RGraph
-from __future__ import print_function
+
 
 import os
 import sys

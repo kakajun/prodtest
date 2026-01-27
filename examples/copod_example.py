@@ -1,5 +1,17 @@
 # -*- coding: utf-8 -*-
 """使用 Copula Based Outlier Detector (COPOD) 进行异常检测的示例
+非参数、无监督的异常检测算法，核心通过Copula 函数建模数据各维度的联合分布与边缘分布关系，
+再利用经验分布的分位数计算样本离群得分，实现异常判定。
+它兼顾了统计建模的严谨性和无监督算法的易用性，无需假设数据服从特定分布（如高斯分布），
+在高维、异构数据上表现优异，是工业界和学术界常用的高效异常检测方法
+1. 非参数建模，无数据分布假设
+2. 无监督学习，无需异常样本标注
+3. 无训练过程，计算效率极高
+4. 高维数据适配性强，缓解维度灾难
+5. 离群得分可解释，支持维度级异常定位
+6. 鲁棒性强，对噪声不敏感
+7. 无需调参，易用性极强
+
 """
 # Author: Winston Li <jk_zhengli@hotmail.com>
 # License: BSD 2 clause
@@ -9,7 +21,7 @@ from pyod.utils.example import visualize
 from pyod.utils.data import evaluate_print
 from pyod.utils.data import generate_data
 from pyod.models.copod import COPOD
-from __future__ import print_function
+
 
 import os
 import sys

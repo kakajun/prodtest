@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 """使用对抗性学习异常检测 (ALAD) 进行异常检测的示例
+对抗性学习异常检测（ALAD）作为基于双向生成对抗网络的异常检测方法，在特征提取、检测效率、适用场景等多个方面均具备显著特点
 """
 from __future__ import division
+
 from pyod.utils.example import visualize
 from pyod.utils.data import evaluate_print
 from pyod.utils.data import generate_data
 from pyod.models.alad import ALAD
-from __future__ import print_function
 
 import os
 import sys

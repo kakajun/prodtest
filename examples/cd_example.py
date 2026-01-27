@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 """使用 Cook's distance (CD) 进行异常检测的示例
+核心用于识别对回归模型参数估计有强影响力的样本（即高杠杆点或异常值）
+Cook's distance（库克距离）是一种基于统计模型的异常检测方法，
+核心思想是通过计算每个样本到模型中其他样本的距离，
+再根据距离的大小判断样本是否异常。
 """
 # Author: D Kulik
 # License: BSD 2 clause
@@ -9,7 +13,7 @@ from pyod.utils.example import visualize
 from pyod.utils.data import evaluate_print
 from pyod.utils.data import generate_data
 from pyod.models.cd import CD
-from __future__ import print_function
+
 
 import os
 import sys

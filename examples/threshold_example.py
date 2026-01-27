@@ -10,7 +10,7 @@ from pyod.utils.data import evaluate_print
 from pyod.utils.data import generate_data
 from pyod.models.thresholds import FILTER
 from pyod.models.kde import KDE
-from __future__ import print_function
+
 
 import os
 import sys

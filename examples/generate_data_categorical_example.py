@@ -6,7 +6,7 @@
 
 from __future__ import division
 from pyod.utils.data import generate_data_categorical
-from __future__ import print_function
+
 
 import os
 import sys

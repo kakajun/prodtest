@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 """使用基于连接的异常因子 (COF) 进行异常检测的示例
+基于连接的异常因子（Connected Outlier Factor, COF）是一种基于图论的异常检测方法，
+核心思想是通过计算每个样本到其 k 个最近邻样本的距离，
+再根据距离的大小判断样本是否异常。
 """
 # Author: Yahya Almardeny <almardeny@gmail.com>
 # License: BSD 2 clause
@@ -9,7 +12,7 @@ from pyod.utils.example import visualize
 from pyod.utils.data import evaluate_print
 from pyod.utils.data import generate_data
 from pyod.models.cof import COF
-from __future__ import print_function
+
 
 import os
 import sys

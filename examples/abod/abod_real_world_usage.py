@@ -12,7 +12,7 @@ ABOD 真实场景使用示例 (带可视化)
 5. 结果保存：将预测结果保存为文件
 """
 from __future__ import division
-from __future__ import print_function
+
 
 import os
 import sys

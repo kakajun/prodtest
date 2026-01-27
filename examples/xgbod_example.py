@@ -11,7 +11,7 @@ from pyod.models.xgbod import XGBOD
 from scipy.io import loadmat
 from sklearn.utils.validation import check_X_y
 from sklearn.model_selection import train_test_split
-from __future__ import print_function
+
 
 import os
 import sys

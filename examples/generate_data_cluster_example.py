@@ -11,7 +11,7 @@ from pyod.utils.example import visualize
 from pyod.utils.example import data_visualize
 from pyod.utils.data import generate_data_clusters
 from pyod.models.lof import LOF
-from __future__ import print_function
+
 
 import os
 import sys
