@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 """使用深度隔离森林 (Deep Isolation Forest) 进行异常检测的示例
+核心思想：非线性映射 + 随机划分
+特点:
+1. 无监督、无需异常样本标注
+2. 训练 / 推理效率高，轻量级易部署
+3. 对数据分布无假设，适配非高斯数据
+4. 对高维数据效果衰减（维度灾难）
 """
 # Author: Hongzuo Xu <hongzuoxu@126.com>
 # License: BSD 2 clause

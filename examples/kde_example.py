@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """使用 KDE 进行异常检测的示例
+KDE (Kernel Density Estimation, 核密度估计) 是一种基于 非参数密度估计 的异常检测方法。
 """
 
 # Author: Akira Tamamori

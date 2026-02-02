@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """使用和可视化 ``generate_data_categorical`` 函数的示例。
+这是一个辅助工具脚本，用于帮助用户测试那些专门处理 分类数据 的异常检测算法（虽然 PyOD 中的大多数模型是针对数值数据的，
+但处理分类数据时通常需要先进行 One-Hot 编码或 Embedding，这个生成器可以直接提供测试素材）
 """
 # Author: Yahya Almardeny <almardeny@gmail.com>
 # License: BSD 2 clause

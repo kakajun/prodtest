@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """基于 Kernel PCA (KPCA) 的异常检测示例。
+- 模型机理：KPCA用核函数把数据映射到高维特征空间，再用“重构误差”作为异常分数；核带宽不匹配会导致重构普遍偏差，正常点也被错判为异常。
+- 特征尺度：KPCA对特征尺度非常敏感；未标准化时，某些维度主导核距离，造成密度估计失真，错误率升高。
 """
 # Author: Akira Tamamori <tamamori5917@gmail.com>
 # License: BSD 2 clause

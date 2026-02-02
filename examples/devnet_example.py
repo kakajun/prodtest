@@ -1,3 +1,10 @@
+"""
+使用 DevNet 进行异常检测的示例
+利用少量已知的异常标签 进行监督或半监督学习，从而显著提升检测效果。
+适用场景 ：
+
+- 适用于 你有少量已标注的异常数据 的场景。在这种情况下，它的表现通常优于完全无监督的模型。
+"""
 from pyod.utils.example import visualize
 from pyod.utils.data import evaluate_print
 from pyod.utils.data import generate_data

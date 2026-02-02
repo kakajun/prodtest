@@ -1,4 +1,11 @@
 """使用 INNE 进行异常检测的示例
+Isolation Forest (IForest) 和 kNN 思想的结合体，但它旨在解决 IForest 的一些局限性。
+特点：
+
+1. 基于超球体的隔离
+2. 克服“盲点” ：
+3. 计算隔离得分
+4. 高效性
 """
 # Author: Xin Han <xinhan197@gmail.com>
 # License: BSD 2 clause

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """使用局部相关积分 (LOCI) 进行异常检测的示例
+LOCI (Local Correlation Integral) 的特点是针对“局部邻域”统计异常，能同时发现 单点异常
+ 和 微簇异常 （一小群异常点），并且提供 数据驱动的自动阈值 。
 """
 # Author: Winston Li <jk_zhengli@hotmail.com>
 # License: BSD 2 clause

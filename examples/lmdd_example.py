@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """使用线性方法偏差基础异常检测 (LMDD) 的示例
+- 模型机理：LMDD假设数据服从线性模型，通过计算样本与模型的偏差来判断异常度。
+- 异常分数：LMDD的异常分数是样本与模型的偏差平方和，异常点的偏差较大。
 """
 # Author: Yahya Almardeny <almardeny@gmail.com>
 # License: BSD 2 clause

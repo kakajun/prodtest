@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 """使用基于直方图的异常检测 (HBOS) 进行异常检测的示例
+HBOS (Histogram-based Outlier Score) 是一种非常 高效 的无监督异常检测算法。
+
+它的核心理念非常直观： 为每个特征画直方图，如果一个样本掉在矮的柱子里（低频区域），它就可能是异常
 """
 # Author: Yue Zhao <zhaoy@cmu.edu>
 # License: BSD 2 clause

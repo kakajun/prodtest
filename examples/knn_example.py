@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """使用 kNN 进行异常检测的示例
+KNN (k-Nearest Neighbors, k-近邻) 是最直观、最简单的异常检测算法之一。
+它的核心理念是： “物以类聚，人以群分”。如果你离你的邻居们很远，那你就是异常点。
 """
 # Author: Yue Zhao <zhaoy@cmu.edu>
 # License: BSD 2 clause

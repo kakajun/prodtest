@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """使用 DeepSVDD 进行异常检测的示例
+用深度神经网络把正常样本‘揉成一个紧凑的球’，不在球里的就是异常
 """
 # Author: Rafal Bodziony <bodziony.rafal@gmail.com>
 # License: BSD 2 clause
