@@ -1,0 +1,529 @@
+Fetching distinct equ_codes...
+Found devices: ['F01', 'F02', 'F03', 'F04', 'F05', 'F06', 'F07', 'F08', 'F09', 'F10', 'F11', 'F12', 'F13', 'F14', 'F15', 'F16', 'F17', 'F18', 'F19', 'F20', 'F21', 'F22', 'F23', 'F24', 'F25']
+
+==================================================
+Processing Device: F01
+==================================================
+Connecting to TDengine... (Device: F01)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F01'
+Rows fetched: 53089
+Creating DataFrame...
+Data loaded: (53089, 136)
+Preprocessing data...
+Train samples: 35808, Test samples: 17281
+
+Training ECOD for F01...
+Threshold: 227.92591973984372
+Saved plot to ECOD_results_F01.png
+Saved model to models\ECOD_F01.joblib
+
+Training IForest for F01...
+Threshold: -0.0
+Saved plot to IForest_results_F01.png
+Saved model to models\IForest_F01.joblib
+
+==================================================
+Processing Device: F02
+==================================================
+Connecting to TDengine... (Device: F02)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F02'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F02...
+Threshold: 234.69899516831316
+Saved plot to ECOD_results_F02.png
+Saved model to models\ECOD_F02.joblib
+
+Training IForest for F02...
+Threshold: 9.49794984415192e-16
+Saved plot to IForest_results_F02.png
+Saved model to models\IForest_F02.joblib
+
+==================================================
+Processing Device: F03
+==================================================
+Connecting to TDengine... (Device: F03)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F03'
+Rows fetched: 53089
+Creating DataFrame...
+Data loaded: (53089, 136)
+Preprocessing data...
+Train samples: 35808, Test samples: 17281
+
+Training ECOD for F03...
+Threshold: 236.29420521120218
+Saved plot to ECOD_results_F03.png
+Saved model to models\ECOD_F03.joblib
+
+Training IForest for F03...
+Threshold: -0.0
+Saved plot to IForest_results_F03.png
+Saved model to models\IForest_F03.joblib
+
+==================================================
+Processing Device: F04
+==================================================
+Connecting to TDengine... (Device: F04)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F04'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F04...
+Threshold: 238.99417042699147
+Saved plot to ECOD_results_F04.png
+Saved model to models\ECOD_F04.joblib
+
+Training IForest for F04...
+Threshold: -0.0
+Saved plot to IForest_results_F04.png
+Saved model to models\IForest_F04.joblib
+
+==================================================
+Processing Device: F05
+==================================================
+Connecting to TDengine... (Device: F05)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F05'
+Rows fetched: 53089
+Creating DataFrame...
+Data loaded: (53089, 136)
+Preprocessing data...
+Train samples: 35808, Test samples: 17281
+
+Training ECOD for F05...
+Threshold: 241.56128353790461
+Saved plot to ECOD_results_F05.png
+Saved model to models\ECOD_F05.joblib
+
+Training IForest for F05...
+Threshold: -0.0
+Saved plot to IForest_results_F05.png
+Saved model to models\IForest_F05.joblib
+
+==================================================
+Processing Device: F06
+==================================================
+Connecting to TDengine... (Device: F06)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F06'
+Rows fetched: 53089
+Creating DataFrame...
+Data loaded: (53089, 136)
+Preprocessing data...
+Train samples: 35808, Test samples: 17281
+
+Training ECOD for F06...
+Threshold: 238.79714176418588
+Saved plot to ECOD_results_F06.png
+Saved model to models\ECOD_F06.joblib
+
+Training IForest for F06...
+Threshold: -0.0
+Saved plot to IForest_results_F06.png
+Saved model to models\IForest_F06.joblib
+
+==================================================
+Processing Device: F07
+==================================================
+Connecting to TDengine... (Device: F07)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F07'
+Rows fetched: 53089
+Creating DataFrame...
+Data loaded: (53089, 136)
+Preprocessing data...
+Train samples: 35808, Test samples: 17281
+
+Training ECOD for F07...
+Threshold: 231.84020585139115
+Saved plot to ECOD_results_F07.png
+Saved model to models\ECOD_F07.joblib
+
+Training IForest for F07...
+Threshold: -0.0
+Saved plot to IForest_results_F07.png
+Saved model to models\IForest_F07.joblib
+
+==================================================
+Processing Device: F08
+==================================================
+Connecting to TDengine... (Device: F08)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F08'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F08...
+Threshold: 245.39259305280018
+Saved plot to ECOD_results_F08.png
+Saved model to models\ECOD_F08.joblib
+
+Training IForest for F08...
+Threshold: 5.477550311656747e-17
+Saved plot to IForest_results_F08.png
+Saved model to models\IForest_F08.joblib
+
+==================================================
+Processing Device: F09
+==================================================
+Connecting to TDengine... (Device: F09)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F09'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F09...
+Threshold: 231.9402250898763
+Saved plot to ECOD_results_F09.png
+Saved model to models\ECOD_F09.joblib
+
+Training IForest for F09...
+Threshold: -0.0
+Saved plot to IForest_results_F09.png
+Saved model to models\IForest_F09.joblib
+
+==================================================
+Processing Device: F10
+==================================================
+Connecting to TDengine... (Device: F10)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F10'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F10...
+Threshold: 252.47814743699197
+Saved plot to ECOD_results_F10.png
+Saved model to models\ECOD_F10.joblib
+
+Training IForest for F10...
+Threshold: -0.0
+Saved plot to IForest_results_F10.png
+Saved model to models\IForest_F10.joblib
+
+==================================================
+Processing Device: F11
+==================================================
+Connecting to TDengine... (Device: F11)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F11'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F11...
+Threshold: 237.01640755624743
+Saved plot to ECOD_results_F11.png
+Saved model to models\ECOD_F11.joblib
+
+Training IForest for F11...
+Threshold: -0.0
+Saved plot to IForest_results_F11.png
+Saved model to models\IForest_F11.joblib
+
+==================================================
+Processing Device: F12
+==================================================
+Connecting to TDengine... (Device: F12)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F12'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F12...
+Threshold: 229.53369686544684
+Saved plot to ECOD_results_F12.png
+Saved model to models\ECOD_F12.joblib
+
+Training IForest for F12...
+Threshold: -0.0
+Saved plot to IForest_results_F12.png
+Saved model to models\IForest_F12.joblib
+
+==================================================
+Processing Device: F13
+==================================================
+Connecting to TDengine... (Device: F13)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F13'
+Rows fetched: 53087
+Creating DataFrame...
+Data loaded: (53087, 136)
+Preprocessing data...
+Train samples: 35806, Test samples: 17281
+
+Training ECOD for F13...
+Threshold: 234.7318432679431
+Saved plot to ECOD_results_F13.png
+Saved model to models\ECOD_F13.joblib
+
+Training IForest for F13...
+Threshold: -0.0
+Saved plot to IForest_results_F13.png
+Saved model to models\IForest_F13.joblib
+
+==================================================
+Processing Device: F14
+==================================================
+Connecting to TDengine... (Device: F14)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F14'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F14...
+Threshold: 237.96311267561444
+Saved plot to ECOD_results_F14.png
+Saved model to models\ECOD_F14.joblib
+
+Training IForest for F14...
+Threshold: -0.0
+Saved plot to IForest_results_F14.png
+Saved model to models\IForest_F14.joblib
+
+==================================================
+Processing Device: F15
+==================================================
+Connecting to TDengine... (Device: F15)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F15'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F15...
+Threshold: 234.56805401778675
+Saved plot to ECOD_results_F15.png
+Saved model to models\ECOD_F15.joblib
+
+Training IForest for F15...
+Threshold: -0.0
+Saved plot to IForest_results_F15.png
+Saved model to models\IForest_F15.joblib
+
+==================================================
+Processing Device: F16
+==================================================
+Connecting to TDengine... (Device: F16)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F16'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F16...
+Threshold: 235.5208327616236
+Saved plot to ECOD_results_F16.png
+Saved model to models\ECOD_F16.joblib
+
+Training IForest for F16...
+Threshold: -0.0
+Saved plot to IForest_results_F16.png
+Saved model to models\IForest_F16.joblib
+
+==================================================
+Processing Device: F17
+==================================================
+Connecting to TDengine... (Device: F17)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F17'
+Rows fetched: 53089
+Creating DataFrame...
+Data loaded: (53089, 136)
+Preprocessing data...
+Train samples: 35808, Test samples: 17281
+
+Training ECOD for F17...
+Threshold: 245.84857809183308
+Saved plot to ECOD_results_F17.png
+Saved model to models\ECOD_F17.joblib
+
+Training IForest for F17...
+Threshold: 1.5382118322138094e-16
+Saved plot to IForest_results_F17.png
+Saved model to models\IForest_F17.joblib
+
+==================================================
+Processing Device: F18
+==================================================
+Connecting to TDengine... (Device: F18)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F18'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F18...
+Threshold: 238.16241572823023
+Saved plot to ECOD_results_F18.png
+Saved model to models\ECOD_F18.joblib
+
+Training IForest for F18...
+Threshold: -0.0
+Saved plot to IForest_results_F18.png
+Saved model to models\IForest_F18.joblib
+
+==================================================
+Processing Device: F19
+==================================================
+Connecting to TDengine... (Device: F19)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F19'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F19...
+Threshold: 236.7757058901981
+Saved plot to ECOD_results_F19.png
+Saved model to models\ECOD_F19.joblib
+
+Training IForest for F19...
+Threshold: -0.0
+Saved plot to IForest_results_F19.png
+Saved model to models\IForest_F19.joblib
+
+==================================================
+Processing Device: F20
+==================================================
+Connecting to TDengine... (Device: F20)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F20'
+Rows fetched: 53089
+Creating DataFrame...
+Data loaded: (53089, 136)
+Preprocessing data...
+Train samples: 35808, Test samples: 17281
+
+Training ECOD for F20...
+Threshold: 231.2368982546822
+Saved plot to ECOD_results_F20.png
+Saved model to models\ECOD_F20.joblib
+
+Training IForest for F20...
+Threshold: 1.0235037914852613e-16
+Saved plot to IForest_results_F20.png
+Saved model to models\IForest_F20.joblib
+
+==================================================
+Processing Device: F21
+==================================================
+Connecting to TDengine... (Device: F21)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F21'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F21...
+Threshold: 240.33737408039343
+Saved plot to ECOD_results_F21.png
+Saved model to models\ECOD_F21.joblib
+
+Training IForest for F21...
+Threshold: 1.8101305841061212e-16
+Saved plot to IForest_results_F21.png
+Saved model to models\IForest_F21.joblib
+
+==================================================
+Processing Device: F22
+==================================================
+Connecting to TDengine... (Device: F22)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F22'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F22...
+Threshold: 242.7363160319193
+Saved plot to ECOD_results_F22.png
+Saved model to models\ECOD_F22.joblib
+
+Training IForest for F22...
+Threshold: -0.0
+Saved plot to IForest_results_F22.png
+Saved model to models\IForest_F22.joblib
+
+==================================================
+Processing Device: F23
+==================================================
+Connecting to TDengine... (Device: F23)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F23'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F23...
+Threshold: 244.40355884967374
+Saved plot to ECOD_results_F23.png
+Saved model to models\ECOD_F23.joblib
+
+Training IForest for F23...
+Threshold: 2.842367285277574e-17
+Saved plot to IForest_results_F23.png
+Saved model to models\IForest_F23.joblib
+
+==================================================
+Processing Device: F24
+==================================================
+Connecting to TDengine... (Device: F24)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F24'
+Rows fetched: 53088
+Creating DataFrame...
+Data loaded: (53088, 136)
+Preprocessing data...
+Train samples: 35807, Test samples: 17281
+
+Training ECOD for F24...
+Threshold: 240.34672478909363
+Saved plot to ECOD_results_F24.png
+Saved model to models\ECOD_F24.joblib
+
+Training IForest for F24...
+Threshold: -0.0
+Saved plot to IForest_results_F24.png
+Saved model to models\IForest_F24.joblib
+
+==================================================
+Processing Device: F25
+==================================================
+Connecting to TDengine... (Device: F25)
+Executing query: SELECT ts, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, at, au, av, aw, ax, ay, az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz, da, gu, gv, gw, gx, gy, gz, ha, hb, hc, hd, he, hf, hg, hh, hi, hj, hk, hl, hm, hn, ho, hp, hq, hr, hs, ht, hu, hv, hw, hx, db, gt FROM stable_gtjjlfgdzf WHERE ts >= '2026-01-22' AND ts < '2026-01-29' AND equ_code = 'F25'
+Rows fetched: 53089
+Creating DataFrame...
+Data loaded: (53089, 136)
+Preprocessing data...
+Train samples: 35808, Test samples: 17281
+
+Training ECOD for F25...
+Threshold: 236.8432772143144
+Saved plot to ECOD_results_F25.png
+Saved model to models\ECOD_F25.joblib
+
+Training IForest for F25...
+Threshold: -7.615673228763414e-18
+Saved plot to IForest_results_F25.png
+Saved model to models\IForest_F25.joblib
+
+All Done.
