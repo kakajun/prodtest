@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 """使用变分自编码器进行异常检测的示例
+变分自编码器 (VAE)
+深度学习，生成模型
+复杂非线性，概率建模
 """
 # Author: Tiankai Yang <tiankaiy@usc.edu>
 # License: BSD 2 clause

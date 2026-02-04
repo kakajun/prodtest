@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """使用 XGBOD 进行异常检测的示例
+ 基于极限提升的异常检测
+  集成，半监督/有监督 
 """
 # Author: Yue Zhao <zhaoy@cmu.edu>
 # License: BSD 2 clause
