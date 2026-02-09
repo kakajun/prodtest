@@ -11,53 +11,18 @@ from pyod.models.knn import KNN
 from pyod.utils.data import evaluate_print
 
 # 临时添加父目录以导入 pyod (如果未安装)
+# 同时也为了导入上级目录的 data_generator
 sys.path.append(
     os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+sys.path.append(
+    os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-def generate_wind_turbine_data(n_samples=500, contamination=0.1, random_state=42):
-    """
-    生成模拟的风机数据 (风速 vs 功率)
-    Generate simulated wind turbine data (Wind Speed vs Power)
-    """
-    np.random.seed(random_state)
-    n_outliers = int(n_samples * contamination)
-    n_inliers = n_samples - n_outliers
-
-    # 生成正常数据 (遵循功率曲线)
-    # 风速范围: 3m/s 到 20m/s
-    wind_speed = np.random.uniform(3, 20, n_inliers)
-
-    # 模拟功率曲线 (使用 Sigmoid 函数近似)
-    # Rated Power (额定功率): 2000 kW
-    rated_power = 2000
-    # 简单的 S 型曲线模拟: Power = Rated / (1 + exp(-k * (v - v0)))
-    power = rated_power / (1 + np.exp(-(wind_speed - 10) * 0.8))
-
-    # 添加一些噪声
-    power += np.random.normal(0, 50, n_inliers)
-
-    # 确保功率不小于0
-    power = np.maximum(power, 0)
-
-    X_inliers = np.column_stack((wind_speed, power))
-
-    # 生成异常数据
-    # 异常情况通常是偏离功率曲线的点
-    outlier_wind = np.random.uniform(3, 20, n_outliers)
-    # 随机功率，不遵循曲线
-    outlier_power = np.random.uniform(0, 2200, n_outliers)
-
-    X_outliers = np.column_stack((outlier_wind, outlier_power))
-
-    X = np.concatenate([X_inliers, X_outliers])
-    y = np.concatenate([np.zeros(n_inliers), np.ones(n_outliers)])
-
-    # 打乱数据
-    indices = np.random.permutation(n_samples)
-    X = X[indices]
-    y = y[indices]
-
-    return X, y
+try:
+    from data_generator import generate_wind_turbine_data
+except ImportError:
+    # Fallback if running from different location
+    sys.path.append(os.path.join(os.getcwd(), 'examples/fengji'))
+    from data_generator import generate_wind_turbine_data
 
 if __name__ == "__main__":
     # 配置参数
@@ -67,10 +32,19 @@ if __name__ == "__main__":
 
     # 1. 生成数据
     print("正在生成风机模拟数据...")
-    X, y = generate_wind_turbine_data(n_samples=n_train + n_test, contamination=contamination)
+    # 为了保持与原代码兼容，我们只使用前两列 (风速, 功率)
+    # return_dataframe=False 返回 numpy array
+    X, y = generate_wind_turbine_data(n_samples=n_train + n_test,
+                                      contamination=contamination,
+                                      return_dataframe=False)
+
+    # 仅保留前两列: [风速, 功率]
+    # 原有的 KNN 示例是针对 2D 数据设计的，直接使用所有特征可能需要调整协方差计算和可视化逻辑
+    X = X[:, :2]
 
     X_train, X_test = X[:n_train], X[n_train:]
     y_train, y_test = y[:n_train], y[n_train:]
+
 
     # 2. 训练模型 (KNN with Mahalanobis Distance)
     print("正在训练 KNN (Mahalanobis Distance) 模型...")
